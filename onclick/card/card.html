@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chipotle Menu</title>
+  <link rel="stylesheet" href="card.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">Chipotle</div>
+    <div class="menu-links">
+      <a href="#">MENU</a>
+      <a href="#">CATERING</a>
+      <a href="#">REWARDS</a>
+      <a href="#">OUR VALUES</a>
+      <a href="#">NUTRITION</a>
+    </div>
+    <div class="right-links">
+      <a id="findPlace" href="javascript:displaymap()">FIND A CHIPOTLE</a>
+      <a href="#">SIGN IN / JOIN</a>
+    </div>
+  </div>
+
+  <!-- Menu Section -->
+  <div class="menu-container">
+    <div class="menu-grid">
+      
+      <!-- Build Your Own -->
+      <div class="menu-item">
+        <img src="https://www.chipotle.com/content/dam/chipotle/menu/meal-types/byoc/web-desktop/BYOC-crop.png" alt="Build Your Own">
+        <div class="tag">NEW | DIGITAL ONLY</div>
+        <h3>BUILD YOUR OWN</h3>
+        <p class="small-text">Serves 4-6 people</p>
+      </div>
+
+      <!-- Burrito -->
+      <div class="menu-item">
+        <img src="https://www.chipotle.com/content/dam/chipotle/menu/meal-types/burrito/web-desktop/burrito.png" alt="Burrito">
+        <h3>BURRITO</h3>
+      </div>
+
+      <!-- Burrito Bowl -->
+      <div class="menu-item">
+        <img src="https://www.chipotle.com/content/dam/chipotle/menu/meal-types/burrito-bowl/web-desktop/order.png" alt="Burrito Bowl">
+        <h3>BURRITO BOWL</h3>
+      </div>
+
+      <!-- Lifestyle Bowl -->
+      <div class="menu-item">
+        <img src="https://www.chipotle.com/content/dam/chipotle/menu/meal-types/lifestyle-bowl/web/lifestyle-bowl.png" alt="Lifestyle Bowl">
+        <br><div class="tag">DIGITAL ONLY</div>
+        <h3>LIFESTYLE BOWL</h3>
+      </div>
+
+      <!-- Quesadilla -->
+      <div class="menu-item">
+        <img src="https://www.chipotle.com/content/dam/chipotle/menu/meal-types/quesadilla/web-desktop/quesadilla.png" alt="Quesadilla">
+        <br><div class="tag">DIGITAL ONLY</div>
+        <h3>QUESADILLA</h3>
+      </div>
+
+      <!-- Salad -->
+      <div class="menu-item">
+        <img src="https://www.chipotle.com/content/dam/chipotle/menu/meal-types/salad/web-desktop/order.png" alt="Salad">
+        <h3>SALAD</h3>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="mapBg">
+    <div class="mapcard">
+      <button id="close">X</button>
+    </div>
+  </div>
+
+  <script src="card.js"></script>
+</body>
+</html>

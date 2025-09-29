@@ -1,0 +1,128 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #3c0d00;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      padding: 15px 40px;
+      border-bottom: 2px solid #e6e6e6;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #a83223;
+    }
+
+    .menu-links {
+      display: flex;
+      gap: 30px;
+    }
+
+    .menu-links a {
+      text-decoration: none;
+      color: #3c0d00;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .menu-links a:hover {
+      color: #a83223;
+    }
+
+    .right-links {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .right-links a {
+      text-decoration: none;
+      color: #3c0d00;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .right-links a:hover {
+      color: #a83223;
+    }
+
+    /* Menu section */
+    .menu-container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .menu-item {
+      text-align: center;
+    }
+
+    .menu-item img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .menu-item h3 {
+      margin-top: 15px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-top: 5px;
+      background: #3c0d00;
+      color: #fff;
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .small-text {
+      font-size: 13px;
+      color: #555;
+    }
+
+
+    #mapBg{
+        position: fixed;
+        width:100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0,.4);
+        top: 0;
+        left: 0;
+        visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mapcard{
+        width: 60%;
+        height: 60%;
+        background-color: red;
+        background-image: url("https://prod-static.mobilesyrup.com/uploads/2025/01/gulf-of-mexico-header-g-maps-2048x1151.jpg");
+        background-size: cover;
+    }
+    #close{
+        float: right;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
