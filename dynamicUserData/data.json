@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Burrito",
+    "description": "A delicious tortilla filled with rice, beans, and your choice of protein.",
+    "image": "https://www.chipotle.com/content/dam/chipotle/menu/meal-types/burrito/web-desktop/burrito.png"
+  },
+  {
+    "title": "Burrito Bowl",
+    "description": "All the flavors of a burrito, served in a bowl without the tortilla.",
+    "image": "https://www.chipotle.com/content/dam/chipotle/menu/meal-types/burrito-bowl/web-desktop/order.png"
+  },
+  {
+    "title": "Quesadilla",
+    "description": "Cheesy and grilled to perfection with your choice of fillings.",
+    "image": "https://www.chipotle.com/content/dam/chipotle/menu/meal-types/quesadilla/web-desktop/quesadilla.png"
+  }
+]
