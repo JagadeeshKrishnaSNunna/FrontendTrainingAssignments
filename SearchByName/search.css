@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+.search_div{
+    width: 600px;
+    height: 300px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    /* margin-top: 40%; */
+
+}
+.search_div input{
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px grey;
+    padding:10px;
+    margin-bottom: 20px;
+}
+.search_div button{
+    background-color: rgb(230, 80, 20);
+    /* background-color: rgb(83, 83, 239); */
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card_dock{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.card {
+    background-color: white;
+    margin: 15px;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0px 1px 20px 0px grey;
+}
+.userLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.userLogo svg{
+    width: 70%;
+    height: 70%;
+    color: rgb(213, 210, 210);
+}
+.name{
+    text-align:center;
+}
+.more{
+    /* background-color: red; */
+    /* overflow: scroll; */
+}
+.moreEx{
+display: flex;
+justify-content: space-between;
+margin-bottom: -40px;
+color: blue;
+}
+.moreEx div{
+    /* margin-top: 40px; */
+    /* background-color: red;
+    border-radius: 50%; */
+    display: flex;
+    align-items: center;
+
+}
+.turn{
+    rotate: 180deg;
+    /* margin-top: -40px; */
+}
+.moreEx:hover{
+    cursor: pointer;
+}
+.di{
+    display: none;
+}
+.detailsDisplay{
+    display: inline-block;
+}
