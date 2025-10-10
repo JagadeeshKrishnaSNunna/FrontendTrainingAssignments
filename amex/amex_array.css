@@ -1,0 +1,51 @@
+body{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.container{
+    /* background-color: red; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+.menu{
+    /* background-color: blue; */
+    display: flex;
+    margin-bottom: 20px;
+}
+.butt{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(238, 234, 234);
+}
+.select{
+    background-color: white;
+    border-top: 4px solid rgb(2, 2, 102);
+}
+#options{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    border: 1px solid rgb(189, 187, 187);
+    font-weight: bold;
+    padding: 10px;
+}
+.icon{
+    /* width: 40%; */
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.icon svg{
+    fill: #0070f3;
+}
+.name{
+    width: 50%;
+}
