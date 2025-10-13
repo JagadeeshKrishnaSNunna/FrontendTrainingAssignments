@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dictionary</title>
+        <link rel="stylesheet" href="dict.css">
+    </head>
+    <body>
+        <h1>Dictionary</h1>
+        <div class="container">
+            <table>
+                <tr>
+                    <td><button onclick="add()">Add Word</button></td>
+                    <td><input id="add" type="text" placeholder="Enter new Word"></td>
+                </tr>
+                <tr>
+                    <td><button onclick="remove()">Remove Word</button></td>
+                    <td><input id="remove" type="text" placeholder="Enter word to remove "></td>
+                </tr>
+                <tr>
+                    <td colspan="two"><button onclick="update()">Update Word</button></td>
+                    <td><input id="init" type="text" placeholder="Enter existing word"></td>
+                    <td><input id="final" type="text" placeholder="Enter new word"></td>
+                </tr>
+            </table>
+            <hr style="width: 100%;">
+            <h4>Words in Dictionary</h4>
+            <ul id="ws"></ul>
+        </div>
+        <script src="dict.js"></script>
+    </body>
+</html>
