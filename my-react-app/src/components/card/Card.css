@@ -1,0 +1,44 @@
+.container{
+    width: 350px;
+    height: auto;
+    border: 1px solid rgb(228, 221, 221);
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: .3px .3px 10px 0px rgb(194, 190, 190);
+}
+.logo_container{
+    /* background-color: red; */
+    width: 20%;
+}
+.text_container{
+    /* background-color: blue; */
+    width: 70%;
+    padding-left: 10px;
+}
+.status{
+    background-color: rgb(26, 171, 84);
+    color:white;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+.orange{
+    background-color: orange;
+}
+.black{
+    background-color: black;
+}
+.orange_con{
+    border-top: 10px solid orange;
+}
+.black_con{
+    border-top: 10px solid black;
+}

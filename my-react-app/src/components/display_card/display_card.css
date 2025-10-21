@@ -1,0 +1,9 @@
+.display_container{
+    /* border: 1px solid green; */
+    width: 45%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 30%;
+}
