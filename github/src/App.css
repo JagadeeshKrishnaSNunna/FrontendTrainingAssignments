@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.container{
+  border: 1px solid rgb(217, 210, 210);
+  width: 500px;
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+.line{
+display: flex;
+flex-direction: row;
+}
+.name{
+  color: rgb(75, 75, 221);
+  /* margin-top: -25px; */
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 400px;
+  /* border: 1px solid red; */
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+}
+.visibility{
+  border: 1px solid rgb(192, 186, 186);
+  text-align: center;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  height:10px;
+  width: auto;
+  margin-left: 5px;
+}
+
+.visibility p{
+  margin-top: -10PX;
+}
+.color{
+  background-color: orange;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.language{
+  margin-top: 10px;
+  color: grey;
+}
+#grip{
+  margin-left: 10px;
+  /* float: right; */
+}
+.dock{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
