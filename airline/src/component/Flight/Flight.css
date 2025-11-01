@@ -1,0 +1,29 @@
+.flightContainer{
+    width: 95%;
+    /* border: 1px dashed orange; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    color: grey;
+    margin-left: 5px;
+}
+
+.TnD{
+    color: orange;
+}
+.TnD span{
+    color: black;
+}
+.place{
+    font-weight: bold;
+}

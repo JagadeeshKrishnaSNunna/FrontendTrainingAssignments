@@ -1,0 +1,21 @@
+.searchContainer{
+    width: 70%;
+    padding: 20px;
+    border: 1px solid rgb(237, 234, 234);
+    display: flex;
+    flex-direction: column;
+}
+.barContainer{
+    display: flex;
+}
+.barContainer input{
+    width: 75%;
+    margin-right: 5px;
+    border: 1px solid rgb(232, 229, 229);
+}
+.barContainer button{
+    background-color: red;
+    border-color: red;
+    border-radius: 5px;
+    color: white;
+}

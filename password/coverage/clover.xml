@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1761845198828" clover="3.2.0">
+  <project timestamp="1761845198828" name="All files">
+    <metrics statements="22" coveredstatements="20" conditionals="26" coveredconditionals="13" methods="11" coveredmethods="9" elements="59" coveredelements="42" complexity="0" loc="22" ncloc="22" packages="3" files="6" classes="6"/>
+    <package name="Header">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Header.css" path="/home/jagadeesh/Desktop/con_ass/FrontendTrainingAssignments/password/src/component/Header/Header.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Header.jsx" path="/home/jagadeesh/Desktop/con_ass/FrontendTrainingAssignments/password/src/component/Header/Header.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="Password">
+      <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="Password.css" path="/home/jagadeesh/Desktop/con_ass/FrontendTrainingAssignments/password/src/component/Password/Password.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Password.jsx" path="/home/jagadeesh/Desktop/con_ass/FrontendTrainingAssignments/password/src/component/Password/Password.jsx">
+        <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Rules">
+      <metrics statements="14" coveredstatements="14" conditionals="26" coveredconditionals="13" methods="7" coveredmethods="7"/>
+      <file name="Rules.css" path="/home/jagadeesh/Desktop/con_ass/FrontendTrainingAssignments/password/src/component/Rules/Rules.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Rules.jsx" path="/home/jagadeesh/Desktop/con_ass/FrontendTrainingAssignments/password/src/component/Rules/Rules.jsx">
+        <metrics statements="14" coveredstatements="14" conditionals="26" coveredconditionals="13" methods="7" coveredmethods="7"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

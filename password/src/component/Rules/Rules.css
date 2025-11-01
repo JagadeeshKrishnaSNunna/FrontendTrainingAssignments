@@ -1,0 +1,29 @@
+.para{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.paraGreen{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: rgb(24, 151, 24);
+}
+.para2{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.para2Green{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: rgb(24, 151, 24);
+}
+.desc-container{
+    border:1px solid rgb(214, 206, 206);
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 280px;
+    padding: 10px;
+}

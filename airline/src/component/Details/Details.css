@@ -1,0 +1,11 @@
+.detailContainer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detailContainer button{
+    width: 300px;
+    border: none;
+    background-color: white;
+}

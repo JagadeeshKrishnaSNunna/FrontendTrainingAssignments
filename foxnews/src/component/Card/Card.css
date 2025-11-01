@@ -1,0 +1,36 @@
+.cardContainer{
+    width: 100%;
+    border-bottom: 1px solid rgb(225, 220, 220);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    /* justify-content: center; */
+}
+.thum{
+    width: 20%;
+    /* border: 1px solid blue; */
+}
+.thum img{
+    width: 100%;
+    height: 100%;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    /* border: 1px solid; */
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 18px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title{
+    font-weight: bolder;
+    color: rgb(10, 10, 157);
+    font-size: 20px;
+}
+.desc span{
+    color: rgb(35, 35, 236);
+    margin-right: 10px;
+}

@@ -1,0 +1,35 @@
+.priceConrainer{
+    width:100%;
+    height:100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: small;
+    background-color: rgb(110, 109, 109);
+}
+.actualPrice{
+    font-weight: bold;
+}
+.book{
+    background-color: orange;
+    width: 90%;
+    align-self: center;
+    margin-top: 10px;
+}
+.emi{
+    background-color: rgb(253, 232, 206);
+    color:orange;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 90%;
+    align-self: center;
+    text-align: center;
+}
+
+.emi span{
+    color: black;
+    font-size: smaller;
+    font-weight: bold;
+}

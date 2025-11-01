@@ -1,0 +1,40 @@
+{
+  "arrival": {
+    "from": {
+      "time": "07:59 PM",
+      "date": "Nov 15, 2025",
+      "Location": "Newark (EWR)"
+    },
+    "stops": {
+      "count": 2,
+      "place": ["YUL", "ZRH"],
+      "duration": "40hr 11 min"
+    },
+    "to": {
+      "time": "10:40 PM",
+      "date": "Nov 17, 2025",
+      "Location": "Mumbai (BOW)"
+    }
+  },
+  "departure": {
+    "from": {
+      "time": "01:15 AM",
+      "date": "Dec 14, 2025",
+      "Location": "Mumbai (BOW)"
+    },
+    "stops": {
+      "count": 1,
+      "place": ["ZRH"],
+      "duration": "29hr 45 min"
+    },
+    "to": {
+      "time": "08:30 PM",
+      "date": "Dec 14, 2025",
+      "Location": "Newark (EWR)"
+    }
+  },
+  "price": {
+    "earlier": "791",
+    "now": "772.39"
+  }
+}
